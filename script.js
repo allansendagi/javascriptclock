@@ -30,5 +30,8 @@ const showCurrentTime = () => {
     // put together the string that displays the time
      const clockTime = hours + ':' + minutes + ':' + seconds + " " + meridian + "!";
 
+     clock.innerText = clockTime;
+
+
 
 }
