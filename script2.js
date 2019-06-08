@@ -9,7 +9,7 @@ var evening = 18;
 var showCurrentTime = function()
 {
     // display the string on the webpage
-    var clock = document.getElementById('clock');
+    const clock = document.getElementById('clock');
  
     var currentTime = new Date();
  
@@ -46,6 +46,11 @@ var showCurrentTime = function()
  
     clock.innerText = clockTime;
 };
+
+
+
+
+
 
 // Getting the clock to increment on its own and change out messages and pictures
 var updateClock = function() 
@@ -160,3 +165,16 @@ var napEvent = function()
 };
 
 napTimeSelector.addEventListener("change", napEvent);
+
+
+
+
+
+
+
+
+
+
+
+
+
